@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export default () => (
   <div>
-    Hi
+    <h1 style={{ display: 'block', textAlign: 'center', margin: '0 auto', padding: 10 }}>Hi</h1>
     <br />
-    <Link to="/page2">Go to Page2</Link>
+    <Link  style={{ display: 'block', textAlign: 'center', margin: '0 auto', padding: 10 }} to="/page2">Go to Page2</Link>
   </div>
 );
